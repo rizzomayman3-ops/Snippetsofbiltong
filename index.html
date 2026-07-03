@@ -3,154 +3,369 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Snippets of Biltong - Premium South African biltong and dried meat snacks. Collection available in multiple flavors.">
-    <meta name="keywords" content="biltong, droewors, snacks, South African biltong, premium biltong, collection">
-    <meta name="author" content="Snippets of Biltong">
-    <meta property="og:title" content="Snippets of Biltong - Premium South African Biltong">
-    <meta property="og:description" content="Premium South African biltong and snacks. Available for collection. Multiple flavors: Plain, Spicy, BBQ, Peri-Peri, Sweet Chilli, and Chilli.">
+    <meta name="description" content="Snippets Of Biltong - Premium homemade biltong made fresh to order. Luxury eCommerce by Kauthar Hendricks.">
+    <meta name="keywords" content="premium biltong, homemade biltong, fresh biltong, South African biltong, luxury food">
+    <meta name="author" content="Snippets Of Biltong">
+    <meta property="og:title" content="Snippets Of Biltong - Premium Homemade Biltong">
+    <meta property="og:description" content="Fresh, premium homemade biltong made to order. Support local. Small batch. Big flavour.">
     <meta property="og:type" content="business.business">
-    <meta property="og:url" content="https://snippetsofbiltong.com">
-    <title>Snippets of Biltong - Premium South African Biltong & Snacks</title>
+    <meta property="og:url" content="https://snippetsofbiltong.co.za">
+    <title>Snippets Of Biltong - Premium Homemade Biltong Made Fresh To Order</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
-        <div class="container">
+        <div class="nav-container">
             <div class="nav-brand">
-                <h1>SNIPPETS OF BILTONG</h1>
+                <h1>SNIPPETS</h1>
             </div>
             <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#products">Products</a></li>
+                <li><a href="#products">Shop</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#process">Order</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/27659071299" class="whatsapp-float" target="_blank">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.272-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-4.968 1.495c-1.53.866-2.645 2.127-2.953 3.635-.593 2.922.399 5.984 2.982 7.857 1.925 1.4 4.627 2.1 7.316 1.878.507-.03 1.012-.108 1.508-.24l.479 2.908c.026.157.178.271.336.271a.36.36 0 00.179-.047l2.889-1.776a.365.365 0 00.155-.624l-2.038-1.574c.666-1.438 1.157-2.944 1.42-4.515.44-2.653-.562-5.677-2.857-7.465-1.857-1.463-4.514-2.148-7.144-1.899z"/>
+        </svg>
+    </a>
+
     <!-- Hero Section -->
-    <section id="home" class="hero">
+    <section class="hero">
         <div class="hero-content">
-            <h2>Premium South African Biltong</h2>
-            <p>Handcrafted dried meat snacks made with passion</p>
-            <p class="hero-cta">Collection Available | WhatsApp to Order</p>
-            <a href="#contact" class="cta-button">Get In Touch</a>
+            <h1 class="hero-title">Premium Homemade Biltong<br><span class="highlight">Made Fresh To Order</span></h1>
+            <p class="hero-subtitle">Crafted with quality ingredients, bold flavours and prepared fresh for every customer.</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">Shop Now</a>
+                <a href="#pricing" class="btn btn-secondary">View Bulk Prices</a>
+            </div>
+        </div>
+        <div class="hero-particles"></div>
+    </section>
+
+    <!-- Support Local Section -->
+    <section class="support-local">
+        <div class="support-content">
+            <h2>SUPPORT<br><span class="highlight">LOCAL</span></h2>
+            <div class="support-stats">
+                <div class="stat">
+                    <h3>Fresh</h3>
+                </div>
+                <div class="stat">
+                    <h3>Authentic</h3>
+                </div>
+                <div class="stat">
+                    <h3>Made With Passion</h3>
+                </div>
+            </div>
+            <p class="support-message">Supporting one local business strengthens an entire community.</p>
         </div>
     </section>
 
-    <!-- Products Section -->
-    <section id="products" class="products">
+    <!-- About Section -->
+    <section class="about" id="about">
         <div class="container">
-            <h2 class="section-title">Our Products</h2>
-            
-            <div class="products-grid">
-                <!-- Whole Sliced Beef -->
-                <div class="product-card">
-                    <div class="product-image-placeholder">
-                        <span class="placeholder-text">Whole Sliced Beef</span>
-                    </div>
-                    <h3>Whole Sliced Beef</h3>
-                    <p class="flavors"><strong>Flavors:</strong> Plain, Spicy, BBQ, Peri-Peri, Sweet Chilli, Chilli</p>
-                    <div class="pricing">
-                        <div class="price-row"><span>100g</span><span>R55</span></div>
-                        <div class="price-row"><span>180g</span><span>R85</span></div>
-                        <div class="price-row"><span>200g</span><span>R95</span></div>
-                        <div class="price-row"><span>250g</span><span>R105</span></div>
-                        <div class="price-row"><span>500g</span><span>R195</span></div>
-                    </div>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-placeholder">Kauthar Hendricks</div>
                 </div>
-
-                <!-- Snapsticks -->
-                <div class="product-card">
-                    <div class="product-image-placeholder">
-                        <span class="placeholder-text">Snapsticks</span>
-                    </div>
-                    <h3>Snapsticks</h3>
-                    <p class="flavors"><strong>Flavors:</strong> Plain, Spicy, BBQ, Peri-Peri, Sweet Chilli, Chilli</p>
-                    <div class="pricing">
-                        <div class="price-row"><span>100g</span><span>R70</span></div>
-                        <div class="price-row"><span>180g</span><span>R125</span></div>
-                    </div>
-                </div>
-
-                <!-- Droewors -->
-                <div class="product-card">
-                    <div class="product-image-placeholder">
-                        <span class="placeholder-text">Droewors</span>
-                    </div>
-                    <h3>Droewors</h3>
-                    <p class="flavors"><strong>Flavors:</strong> Plain, Spicy, Chilli</p>
-                    <div class="pricing">
-                        <div class="price-row"><span>100g</span><span>R40</span></div>
-                        <div class="price-row"><span>180g</span><span>R70</span></div>
-                        <div class="price-row"><span>1kg Offcuts</span><span>R230</span></div>
-                        <div class="price-row"><span>140g Offcuts</span><span>R45</span></div>
-                    </div>
-                </div>
-
-                <!-- Chilli Bites -->
-                <div class="product-card">
-                    <div class="product-image-placeholder">
-                        <span class="placeholder-text">Chilli Bites</span>
-                    </div>
-                    <h3>Chilli Bites</h3>
-                    <p class="flavors"><strong>Perfect snack size</strong></p>
-                    <div class="pricing">
-                        <div class="price-row"><span>50g</span><span>R27</span></div>
-                        <div class="price-row"><span>90g</span><span>R40</span></div>
-                    </div>
-                </div>
-
-                <!-- Snack Pack -->
-                <div class="product-card">
-                    <div class="product-image-placeholder">
-                        <span class="placeholder-text">Snack Pack</span>
-                    </div>
-                    <h3>Biltong Snack Pack</h3>
-                    <p class="pack-contents"><strong>Includes:</strong><br>100g Whole Sliced Beef<br>80g Snapsticks<br>100g Droewors<br>50g Chilli Bites</p>
-                    <p class="flavors"><strong>Flavors:</strong> Plain, Spicy, BBQ, Sweet Chilli, Chilli, Peri-Peri</p>
-                    <div class="pricing">
-                        <div class="price-row"><span>Snack Pack</span><span>R200</span></div>
-                    </div>
-                </div>
-
-                <!-- Hamper -->
-                <div class="product-card">
-                    <div class="product-image-placeholder">
-                        <span class="placeholder-text">Biltong Hamper</span>
-                    </div>
-                    <h3>Biltong Hamper</h3>
-                    <p class="pack-contents"><strong>Includes:</strong><br>Whole Beef (Fatty or Lean)<br>100g Snapsticks<br>180g Droewors<br>180g Whole Sliced Beef</p>
-                    <p class="flavors"><strong>Flavors:</strong> Plain, Spicy, BBQ, Sweet Chilli, Chilli, Peri-Peri</p>
-                    <div class="pricing">
-                        <div class="price-row"><span>Hamper</span><span>R300</span></div>
-                    </div>
-                    <p class="note">*Prices may vary for custom-made hampers</p>
+                <div class="about-content">
+                    <h2>Meet Kauthar Hendricks</h2>
+                    <p>At just 21 years old, Kauthar has built Snippets Of Biltong around one goal:</p>
+                    <p><strong>Deliver premium homemade biltong that people genuinely enjoy.</strong></p>
+                    <p>Every order is prepared fresh, carefully packed and made with quality ingredients to ensure every bite is packed with flavour.</p>
+                    <p class="about-tagline">"Small batch. Big flavour."</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
+    <!-- Why Choose Us -->
+    <section class="why-choose">
         <div class="container">
-            <h2 class="section-title">About Snippets of Biltong</h2>
-            <div class="about-content">
-                <p>We craft premium South African biltong and dried meat snacks with passion and quality in every bite. Our products are made using traditional methods combined with modern quality standards.</p>
-                <p>From whole sliced beef to our signature snapsticks and droewors, each product is carefully prepared to deliver authentic South African flavor.</p>
-                <div class="about-features">
-                    <div class="feature">
-                        <h3>🏆 Quality</h3>
-                        <p>Premium ingredients and careful preparation</p>
+            <h2>Why Choose Snippets Of Biltong</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🍖</div>
+                    <h3>Freshly Prepared</h3>
+                    <p>Every order is made fresh instead of sitting on shelves.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✨</div>
+                    <h3>Premium Ingredients</h3>
+                    <p>Only quality meat and carefully selected spices.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Fast Collection</h3>
+                    <p>Simple ordering process with collection once ready.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">❤️</div>
+                    <h3>Locally Owned</h3>
+                    <p>Proudly supporting local business.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Affordable Bulk</h3>
+                    <p>Perfect for families, offices and events.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌶️</div>
+                    <h3>Multiple Flavours</h3>
+                    <p>Plain, Spicy, BBQ, Chilli, Peri-Peri, Sweet Chilli.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="products-grid">
+                <!-- Whole Sliced Beef -->
+                <div class="product-card">
+                    <div class="product-image">🥩</div>
+                    <h3>Whole Sliced Beef</h3>
+                    <p class="product-desc">Long premium slices with perfect marbling</p>
+                    <div class="flavors">Plain • Spicy • BBQ • Peri-Peri • Sweet Chilli • Chilli</div>
+                </div>
+
+                <!-- Snapsticks -->
+                <div class="product-card">
+                    <div class="product-image">🌳</div>
+                    <h3>Snapsticks</h3>
+                    <p class="product-desc">Neatly stacked crispy biltong sticks</p>
+                    <div class="flavors">Plain • Spicy • BBQ • Peri-Peri • Sweet Chilli • Chilli</div>
+                </div>
+
+                <!-- Chilli Bites -->
+                <div class="product-card">
+                    <div class="product-image">🔥</div>
+                    <h3>Chilli Bites</h3>
+                    <p class="product-desc">Bite-size cubes with chilli flakes</p>
+                    <div class="flavors">50g • 90g</div>
+                </div>
+
+                <!-- Droëwors -->
+                <div class="product-card">
+                    <div class="product-image">🌀</div>
+                    <h3>Droëwors</h3>
+                    <p class="product-desc">Curved dried sausage pieces</p>
+                    <div class="flavors">Plain • Spicy • Chilli • Offcuts</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flavours Section -->
+    <section class="flavours">
+        <div class="container">
+            <h2>Explore Our Flavours</h2>
+            <div class="flavours-grid">
+                <div class="flavour-card">
+                    <h3>Plain</h3>
+                    <p>Simple and classic</p>
+                </div>
+                <div class="flavour-card">
+                    <h3>Spicy</h3>
+                    <p>Extra kick</p>
+                </div>
+                <div class="flavour-card">
+                    <h3>BBQ</h3>
+                    <p>Smoky flavour</p>
+                </div>
+                <div class="flavour-card">
+                    <h3>Chilli</h3>
+                    <p>Bold and fiery</p>
+                </div>
+                <div class="flavour-card">
+                    <h3>Peri-Peri</h3>
+                    <p>Perfect heat</p>
+                </div>
+                <div class="flavour-card">
+                    <h3>Sweet Chilli</h3>
+                    <p>Sweet with spice</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bulk Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2>Bulk Pricing</h2>
+            <div class="pricing-grid">
+                <!-- Whole Sliced Beef -->
+                <div class="pricing-card">
+                    <h3>Whole Sliced Beef</h3>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span>100g</span>
+                            <span class="price">R55</span>
+                        </div>
+                        <div class="price-item">
+                            <span>180g</span>
+                            <span class="price">R85</span>
+                        </div>
+                        <div class="price-item">
+                            <span>200g</span>
+                            <span class="price">R95</span>
+                        </div>
+                        <div class="price-item">
+                            <span>250g</span>
+                            <span class="price">R105</span>
+                        </div>
+                        <div class="price-item">
+                            <span>500g</span>
+                            <span class="price">R195</span>
+                        </div>
                     </div>
-                    <div class="feature">
-                        <h3>🌶️ Variety</h3>
-                        <p>Multiple flavors to suit every palate</p>
+                </div>
+
+                <!-- Snapsticks -->
+                <div class="pricing-card">
+                    <h3>Snapsticks</h3>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span>100g</span>
+                            <span class="price">R70</span>
+                        </div>
+                        <div class="price-item">
+                            <span>180g</span>
+                            <span class="price">R125</span>
+                        </div>
                     </div>
-                    <div class="feature">
-                        <h3>👨‍🍳 Fresh</h3>
-                        <p>Made fresh for collection</p>
+                </div>
+
+                <!-- Chilli Bites -->
+                <div class="pricing-card">
+                    <h3>Chilli Bites</h3>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span>50g</span>
+                            <span class="price">R27</span>
+                        </div>
+                        <div class="price-item">
+                            <span>90g</span>
+                            <span class="price">R40</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Droëwors -->
+                <div class="pricing-card">
+                    <h3>Droëwors</h3>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span>100g</span>
+                            <span class="price">R40</span>
+                        </div>
+                        <div class="price-item">
+                            <span>180g</span>
+                            <span class="price">R70</span>
+                        </div>
+                        <div class="price-item">
+                            <span>1kg Offcuts</span>
+                            <span class="price">R230</span>
+                        </div>
+                        <div class="price-item">
+                            <span>140g Offcuts</span>
+                            <span class="price">R45</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="masonry-grid">
+                <div class="gallery-item">🖼️</div>
+                <div class="gallery-item">🖼️</div>
+                <div class="gallery-item">🖼️</div>
+                <div class="gallery-item">🖼️</div>
+                <div class="gallery-item">🖼️</div>
+                <div class="gallery-item">🖼️</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ordering Process -->
+    <section class="process" id="process">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-number">1</div>
+                    <h3>Browse Products</h3>
+                </div>
+                <div class="timeline-arrow">↓</div>
+                <div class="timeline-item">
+                    <div class="timeline-number">2</div>
+                    <h3>Place Your Order</h3>
+                </div>
+                <div class="timeline-arrow">↓</div>
+                <div class="timeline-item">
+                    <div class="timeline-number">3</div>
+                    <h3>Pay via EFT</h3>
+                </div>
+                <div class="timeline-arrow">↓</div>
+                <div class="timeline-item">
+                    <div class="timeline-number">4</div>
+                    <h3>Order Prepared Fresh</h3>
+                </div>
+                <div class="timeline-arrow">↓</div>
+                <div class="timeline-item">
+                    <div class="timeline-number">5</div>
+                    <h3>Collect Your Order</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Important Notice -->
+    <section class="important-notice">
+        <div class="container">
+            <div class="notice-card">
+                <h2>⚠️ PLEASE NOTE</h2>
+                <p class="notice-highlight">Orders require a waiting period of <strong>1–3 days</strong> as every order is prepared fresh.</p>
+                <p class="notice-highlight">Orders must be placed by <strong>Wednesday before 8:30 PM</strong> to be included in that week's preparation schedule.</p>
+                <hr>
+                <p>We do NOT keep stock on hand.</p>
+                <p>Every order is freshly prepared to maintain the highest quality.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Information -->
+    <section class="payment">
+        <div class="container">
+            <h2>Payment Details</h2>
+            <div class="payment-grid">
+                <div class="payment-card glass">
+                    <h3>Accepted Payment</h3>
+                    <p class="payment-method">EFT ONLY</p>
+                    <p>No Cash on Delivery</p>
+                    <p>Orders begin once proof of payment has been received.</p>
+                </div>
+                <div class="payment-card glass">
+                    <h3>Bank Details</h3>
+                    <div class="bank-info">
+                        <p><strong>Account Holder:</strong> Kauthar Hendricks</p>
+                        <p><strong>Bank:</strong> [Your Bank]</p>
+                        <p><strong>Account Number:</strong> [Your Account]</p>
+                        <p><strong>Branch Code:</strong> [Your Branch]</p>
                     </div>
                 </div>
             </div>
@@ -158,60 +373,86 @@
     </section>
 
     <!-- FAQ Section -->
-    <section id="faq" class="faq">
+    <section class="faq">
         <div class="container">
-            <h2 class="section-title">Frequently Asked Questions</h2>
-            <div class="faq-content">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
                 <div class="faq-item">
-                    <h3>How do I place an order?</h3>
-                    <p>Contact us via WhatsApp at <strong>065 907 1299</strong> or reach out through Instagram/TikTok @snippetsofbiltong with your order details and preferred collection time.</p>
+                    <h3>How long does my order take?</h3>
+                    <p>1–3 working days for preparation and collection.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>What flavors are available?</h3>
-                    <p>We offer: Plain, Spicy, BBQ, Peri-Peri, Sweet Chilli, and Chilli. Check individual products for flavor availability.</p>
+                    <h3>Do you deliver?</h3>
+                    <p>Currently offering collection only. Orders must be collected at an agreed time.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>Is shipping available?</h3>
-                    <p>Currently, we only offer collection. Please contact us for collection details and availability.</p>
+                    <h3>Can I order bulk quantities?</h3>
+                    <p>Yes! Perfect for gifts, offices and events. Contact us for custom bulk pricing.</p>
                 </div>
                 <div class="faq-item">
-                    <h3>Can I customize orders?</h3>
-                    <p>Yes! We can create custom hampers and snack packs. Contact us via WhatsApp to discuss your custom order and pricing.</p>
-                </div>
-                <div class="faq-item">
-                    <h3>Are there bulk discounts?</h3>
-                    <p>For bulk orders, please contact us directly on WhatsApp or Instagram to discuss pricing options.</p>
-                </div>
-                <div class="faq-item">
-                    <h3>What are the shelf life and storage instructions?</h3>
-                    <p>Our biltong is best enjoyed fresh. Store in a cool, dry place. For specific storage details, ask us when you place your order.</p>
+                    <h3>Do you keep stock?</h3>
+                    <p>No. Everything is freshly prepared for each order to maintain quality.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <!-- Testimonials -->
+    <section class="testimonials">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Contact Us</h3>
-                    <p><strong>WhatsApp:</strong> 065 907 1299</p>
-                    <p><strong>Instagram:</strong> @snippetsofbiltong</p>
-                    <p><strong>TikTok:</strong> @snippetsofbiltong</p>
-                    <p><strong>Availability:</strong> Collection Only</p>
+            <h2>What Customers Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Best biltong I've had. Fresh and flavourful."</p>
                 </div>
-                <div class="contact-message">
-                    <h3>Place Your Order</h3>
-                    <p>Ready to taste premium biltong?</p>
-                    <p>Send us a message on WhatsApp with:</p>
-                    <ul>
-                        <li>Products you'd like</li>
-                        <li>Quantities and flavors</li>
-                        <li>Your preferred collection time</li>
-                    </ul>
-                    <a href="https://wa.me/27659071299" class="whatsapp-button" target="_blank">Message on WhatsApp</a>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Fresh every single time. Highly recommend!"</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Amazing service and flavour. Worth the wait."</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Definitely ordering again. Support local!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Section -->
+    <section class="instagram">
+        <div class="container">
+            <h2>Follow Us On Instagram</h2>
+            <p>Stay updated with the latest products and behind-the-scenes content</p>
+            <a href="https://instagram.com/snippetsofbiltong" target="_blank" class="btn btn-primary">@snippetsofbiltong</a>
+            <div class="instagram-feed-placeholder">
+                📸 Instagram Feed Placeholder
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>WhatsApp</h3>
+                    <p>Chat with us directly for orders and inquiries</p>
+                    <a href="https://wa.me/27659071299" class="btn btn-primary" target="_blank">Message on WhatsApp</a>
+                </div>
+                <div class="contact-card">
+                    <h3>Instagram</h3>
+                    <p>Follow for updates and mouth-watering content</p>
+                    <a href="https://instagram.com/snippetsofbiltong" class="btn btn-secondary" target="_blank">@snippetsofbiltong</a>
+                </div>
+                <div class="contact-card">
+                    <h3>TikTok</h3>
+                    <p>See us creating and preparing your orders</p>
+                    <a href="https://tiktok.com/@snippetsofbiltong" class="btn btn-secondary" target="_blank">@snippetsofbiltong</a>
                 </div>
             </div>
         </div>
@@ -220,16 +461,31 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Snippets of Biltong. All rights reserved.</p>
-            <p>Premium South African Biltong | Collection Available</p>
-            <div class="social-links">
-                <a href="https://instagram.com/snippetsofbiltong" target="_blank">Instagram</a>
-                <a href="https://tiktok.com/@snippetsofbiltong" target="_blank">TikTok</a>
-                <a href="https://wa.me/27659071299" target="_blank">WhatsApp</a>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Snippets Of Biltong</h4>
+                    <p>Premium homemade biltong made fresh to order.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#process">Order Process</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>WhatsApp: 065 907 1299</p>
+                    <p>Instagram: @snippetsofbiltong</p>
+                </div>
             </div>
+            <hr>
+            <p class="footer-bottom">&copy; 2026 Snippets Of Biltong. All rights reserved. | Supporting Local Business</p>
         </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
